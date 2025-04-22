@@ -1,135 +1,139 @@
-# Go Backend Clean Architecture
+Voici une traduction en français du fichier `README.md` :
 
-A Go (Golang) Backend Clean Architecture project with Gin, MongoDB, JWT Authentication Middleware, Test, and Docker.
+---
 
-![Go Backend Clean Architecture](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-backend-clean-architecture.png?raw=true)
+# Architecture Propre Backend en Go
 
-**You can use this project as a template to build your Backend project in the Go language on top of this project.**
+Un projet d'architecture propre backend en Go (Golang) utilisant Gin, MongoDB, un middleware d'authentification JWT, des tests, et Docker.
 
-Before creating this project, I have gone through more than 20 projects related to the Go(Golang) Clean Architecture on GitHub.
+![Architecture Propre Backend en Go](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-backend-clean-architecture.png?raw=true)
 
-Thanks to all those projects, I learned a lot from all of those. As I keep saying:
+**Vous pouvez utiliser ce projet comme modèle pour construire votre projet backend en langage Go à partir de ce projet.**
 
-> The best way to learn to code is to code. But, to write good code, you will also have to read good code. Make a habit of reading good code. You can find many open-source projects on GitHub and start reading.
+Avant de créer ce projet, j'ai exploré plus de 20 projets liés à l'architecture propre en Go (Golang) sur GitHub.
 
-Then for the implementation part, I combined all of my ideas, experiences, and learnings from those projects to create this project.
+Merci à tous ces projets, j'ai beaucoup appris de chacun d'entre eux. Comme je le dis souvent :
 
-And as always I would love to get feedback on my project. This helps everyone and most importantly me.
+> La meilleure façon d'apprendre à coder, c'est de coder. Mais pour bien coder, il faut aussi lire du bon code. Prenez l'habitude de lire du bon code. Vous pouvez trouver de nombreux projets open-source sur GitHub et commencer [...]
 
-Learn about this project architecture in detail from the blogs mentioned below:
+Ensuite, pour la partie implémentation, j'ai combiné toutes mes idées, expériences et apprentissages de ces projets pour créer ce projet.
 
-- [Go Backend Clean Architecture](https://outcomeschool.com/blog/go-backend-clean-architecture)
-- [Go JWT Authentication Middleware](https://outcomeschool.com/blog/go-jwt-authentication-middleware)
-- [Configuration with Viper in Go](https://outcomeschool.com/blog/configuration-with-viper-in-go)
-- [Test with Testify and Mockery in Go](https://outcomeschool.com/blog/test-with-testify-and-mockery-in-go)
-- [Database Normalization vs Denormalization](https://outcomeschool.com/blog/database-normalization-vs-denormalization)
+Et comme toujours, j'aimerais recevoir des retours sur mon projet. Cela aide tout le monde et surtout moi-même.
 
-## Architecture Layers of the project
+Apprenez-en plus sur l'architecture de ce projet en détail grâce aux blogs mentionnés ci-dessous :
 
-- Router
-- Controller
-- Usecase
-- Repository
-- Domain
+- [Architecture Propre Backend en Go](https://outcomeschool.com/blog/go-backend-clean-architecture)
+- [Middleware d'authentification JWT en Go](https://outcomeschool.com/blog/go-jwt-authentication-middleware)
+- [Configuration avec Viper en Go](https://outcomeschool.com/blog/configuration-with-viper-in-go)
+- [Tests avec Testify et Mockery en Go](https://outcomeschool.com/blog/test-with-testify-and-mockery-in-go)
+- [Normalisation vs Dénormalisation des bases de données](https://outcomeschool.com/blog/database-normalization-vs-denormalization)
 
-![Go Backend Clean Architecture Diagram](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-backend-arch-diagram.png?raw=true)
+## Couches d'architecture du projet
 
-## About me
+- Routeur
+- Contrôleur
+- Cas d'utilisation
+- Dépôt (Repository)
+- Domaine
 
-Hi, I am Amit Shekhar, Co-Founder @ [Outcome School](https://outcomeschool.com) • IIT 2010-14 • I have taught and mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
+![Diagramme de l'architecture propre backend en Go](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-backend-arch-diagram.png?raw=true)
 
-You can connect with me on:
+## À propos de moi
+
+Bonjour, je suis Amit Shekhar, co-fondateur de [Outcome School](https://outcomeschool.com) • IIT 2010-14 • J'ai enseigné et mentoré de nombreux développeurs, et leurs efforts leur ont permis d'obtenir des emplois techniques bien rémunérés, hel [...]
+
+Vous pouvez me contacter sur :
 
 - [Twitter](https://twitter.com/amitiitbhu)
 - [YouTube](https://www.youtube.com/@amitshekhar)
 - [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
 - [GitHub](https://github.com/amitshekhariitbhu)
 
-## System Design Playlist on YouTube
+## Playlist sur la conception de systèmes sur YouTube
 
-- [What is System Design?](https://www.youtube.com/watch?v=i4YWRY3hsdA)
-- [Twitter Timeline Design with Fanout Approach - System Design](https://www.youtube.com/watch?v=_7qHGfwgPz0)
-- [HTTP Request vs HTTP Long-Polling vs WebSocket vs Server-Sent Events](https://www.youtube.com/watch?v=8ksWRX4xV-s)
-- [YouTube Video Upload Service - System Design](https://www.youtube.com/watch?v=N0vvJTkokZc)
-- [What is Consistent Hashing?](https://www.youtube.com/watch?v=dV5cIm9T3ss)
-- [Capacity Estimation: Back-of-the-envelope calculation - Twitter](https://www.youtube.com/watch?v=yrbKxzXm6_Q)
+- [Qu'est-ce que la conception de systèmes ?](https://www.youtube.com/watch?v=i4YWRY3hsdA)
+- [Conception de la timeline Twitter avec l'approche Fanout - Conception de systèmes](https://www.youtube.com/watch?v=_7qHGfwgPz0)
+- [Requête HTTP vs Long-Polling HTTP vs WebSocket vs Server-Sent Events](https://www.youtube.com/watch?v=8ksWRX4xV-s)
+- [Service de téléchargement de vidéos YouTube - Conception de systèmes](https://www.youtube.com/watch?v=N0vvJTkokZc)
+- [Qu'est-ce que le hachage cohérent ?](https://www.youtube.com/watch?v=dV5cIm9T3ss)
+- [Estimation de la capacité : Calcul approximatif - Twitter](https://www.youtube.com/watch?v=yrbKxzXm6_Q)
 
-## Major Packages used in this project
+## Principaux paquets utilisés dans ce projet
 
-- **gin**: Gin is an HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need a smashing performance, get yourself some Gin.
-- **mongo go driver**: The Official Golang driver for MongoDB.
-- **jwt**: JSON Web Tokens are an open, industry-standard RFC 7519 method for representing claims securely between two parties. Used for Access Token and Refresh Token.
-- **viper**: For loading configuration from the `.env` file. Go configuration with fangs. Find, load, and unmarshal a configuration file in JSON, TOML, YAML, HCL, INI, envfile, or Java properties formats.
-- **bcrypt**: Package bcrypt implements Provos and Mazières's bcrypt adaptive hashing algorithm.
-- **testify**: A toolkit with common assertions and mocks that plays nicely with the standard library.
-- **mockery**: A mock code autogenerator for Golang used in testing.
-- Check more packages in `go.mod`.
+- **gin** : Gin est un framework web HTTP écrit en Go (Golang). Il propose une API similaire à Martini avec de bien meilleures performances -- jusqu'à 40 fois plus rapide. Si vous avez besoin de performances exceptionnelles, adoptez Gin.
+- **mongo go driver** : Le driver officiel Golang pour MongoDB.
+- **jwt** : Les JSON Web Tokens sont une méthode standard ouverte (RFC 7519) pour représenter des revendications de manière sécurisée entre deux parties. Utilisé pour les tokens d'accès et de rafraîchissement.
+- **viper** : Pour charger la configuration depuis le fichier `.env`. Configuration en Go avec des fonctionnalités étendues. Permet de trouver, charger et désérialiser un fichier de configuration au format JSON, TOML, YAML, HCL, INI, envfile ou propriétés Java.
+- **bcrypt** : Le package bcrypt implémente l'algorithme de hachage adaptatif bcrypt.
+- **testify** : Une boîte à outils avec des assertions et des mocks qui s'intègre bien avec la bibliothèque standard.
+- **mockery** : Un générateur automatique de code mock pour Golang utilisé dans les tests.
+- Consultez plus de paquets dans `go.mod`.
 
-### Public API Request Flow without JWT Authentication Middleware
+### Flux de requêtes API publiques sans middleware d'authentification JWT
 
-![Public API Request Flow](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-arch-public-api-request-flow.png?raw=true)
+![Flux de requêtes API publiques](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-arch-public-api-request-flow.png?raw=true)
 
-### Private API Request Flow with JWT Authentication Middleware
+### Flux de requêtes API privées avec middleware d'authentification JWT
 
-> JWT Authentication Middleware for Access Token Validation.
+> Middleware d'authentification JWT pour la validation des tokens d'accès.
 
-![Private API Request Flow](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-arch-private-api-request-flow.png?raw=true)
+![Flux de requêtes API privées](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-arch-private-api-request-flow.png?raw=true)
 
-### How to run this project?
+### Comment exécuter ce projet ?
 
-We can run this Go Backend Clean Architecture project with or without Docker. Here, I am providing both ways to run this project.
+Nous pouvons exécuter ce projet d'architecture propre backend en Go avec ou sans Docker. Voici les deux méthodes pour exécuter ce projet.
 
-- Clone this project
+- Clonez ce projet
 
 ```bash
-# Move to your workspace
-cd your-workspace
+# Déplacez-vous dans votre espace de travail
+cd votre-espace-de-travail
 
-# Clone this project into your workspace
+# Clonez ce projet dans votre espace de travail
 git clone https://github.com/amitshekhariitbhu/go-backend-clean-architecture.git
 
-# Move to the project root directory
+# Déplacez-vous dans le répertoire racine du projet
 cd go-backend-clean-architecture
 ```
 
-#### Run without Docker
+#### Exécution sans Docker
 
-- Create a file `.env` similar to `.env.example` at the root directory with your configuration.
-- Install `go` if not installed on your machine.
-- Install `MongoDB` if not installed on your machine.
-- Important: Change the `DB_HOST` to `localhost` (`DB_HOST=localhost`) in `.env` configuration file. `DB_HOST=mongodb` is needed only when you run with Docker.
-- Run `go run cmd/main.go`.
-- Access API using `http://localhost:8080`
+- Créez un fichier `.env` similaire à `.env.example` dans le répertoire racine avec votre configuration.
+- Installez `go` si ce n'est pas déjà fait sur votre machine.
+- Installez `MongoDB` si ce n'est pas déjà fait sur votre machine.
+- Important : Changez `DB_HOST` en `localhost` (`DB_HOST=localhost`) dans le fichier de configuration `.env`. `DB_HOST=mongodb` n'est nécessaire que lorsque vous utilisez Docker.
+- Exécutez `go run cmd/main.go`.
+- Accédez à l'API via `http://localhost:8080`.
 
-#### Run with Docker
+#### Exécution avec Docker
 
-- Create a file `.env` similar to `.env.example` at the root directory with your configuration.
-- Install Docker and Docker Compose.
-- Run `docker-compose up -d`.
-- Access API using `http://localhost:8080`
+- Créez un fichier `.env` similaire à `.env.example` dans le répertoire racine avec votre configuration.
+- Installez Docker et Docker Compose.
+- Exécutez `docker-compose up -d`.
+- Accédez à l'API via `http://localhost:8080`.
 
-### How to run the test?
+### Comment exécuter les tests ?
 
 ```bash
-# Run all tests
+# Exécutez tous les tests
 go test ./...
 ```
 
-### How to generate the mock code?
+### Comment générer le code mock ?
 
-In this project, to test, we need to generate mock code for the use-case, repository, and database.
+Dans ce projet, pour les tests, nous devons générer du code mock pour les cas d'utilisation, les dépôts et la base de données.
 
 ```bash
-# Generate mock code for the usecase and repository
+# Générez le code mock pour les cas d'utilisation et les dépôts
 mockery --dir=domain --output=domain/mocks --outpkg=mocks --all
 
-# Generate mock code for the database
+# Générez le code mock pour la base de données
 mockery --dir=mongo --output=mongo/mocks --outpkg=mocks --all
 ```
 
-Whenever you make changes in the interfaces of these use-cases, repositories, or databases, you need to run the corresponding command to regenerate the mock code for testing.
+Chaque fois que vous apportez des modifications aux interfaces de ces cas d'utilisation, dépôts ou bases de données, vous devez exécuter la commande correspondante pour régénérer le code mock pour les tests.
 
-### The Complete Project Folder Structure
+### Structure complète des dossiers du projet
 
 ```
 .
@@ -188,17 +192,17 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
     └── task_usecase_test.go
 ```
 
-### API documentation of Go Backend Clean Architecture
+### Documentation de l'API de l'architecture propre backend en Go
 
 <a href="https://documenter.getpostman.com/view/391588/2s8Z75S9xy" target="_blank">
-    <img alt="View API Doc Button" src="https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/button-view-api-docs.png?raw=true" width="200" height="60"/>
+    <img alt="Bouton Voir la documentation de l'API" src="https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/button-view-api-docs.png?raw=true" width="200" height="60"/>
 </a>
 
-### Example API Request and Response
+### Exemple de requêtes et réponses API
 
-- signup
+- Inscription
 
-  - Request
+  - Requête
 
   ```
   curl --location --request POST 'http://localhost:8080/signup' \
@@ -207,7 +211,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   --data-urlencode 'name=Test Name'
   ```
 
-  - Response
+  - Réponse
 
   ```json
   {
@@ -216,9 +220,9 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   }
   ```
 
-- login
+- Connexion
 
-  - Request
+  - Requête
 
   ```
   curl --location --request POST 'http://localhost:8080/login' \
@@ -226,7 +230,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   --data-urlencode 'password=test'
   ```
 
-  - Response
+  - Réponse
 
   ```json
   {
@@ -235,16 +239,16 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   }
   ```
 
-- profile
+- Profil
 
-  - Request
+  - Requête
 
   ```
   curl --location --request GET 'http://localhost:8080/profile' \
   --header 'Authorization: Bearer access_token'
   ```
 
-  - Response
+  - Réponse
 
   ```json
   {
@@ -253,9 +257,9 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   }
   ```
 
-- task create
+- Création de tâche
 
-  - Request
+  - Requête
 
   ```
   curl --location --request POST 'http://localhost:8080/task' \
@@ -264,7 +268,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   --data-urlencode 'title=Test Task'
   ```
 
-  - Response
+  - Réponse
 
   ```json
   {
@@ -272,16 +276,16 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   }
   ```
 
-- task fetch
+- Récupération des tâches
 
-  - Request
+  - Requête
 
   ```
   curl --location --request GET 'http://localhost:8080/task' \
   --header 'Authorization: Bearer access_token'
   ```
 
-  - Response
+  - Réponse
 
   ```json
   [
@@ -294,9 +298,9 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   ]
   ```
 
-- refresh token
+- Rafraîchissement du token
 
-  - Request
+  - Requête
 
   ```
   curl --location --request POST 'http://localhost:8080/refresh' \
@@ -304,7 +308,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   --data-urlencode 'refreshToken=refresh_token'
   ```
 
-  - Response
+  - Réponse
 
   ```json
   {
@@ -313,32 +317,36 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   }
   ```
 
-### TODO
+### À faire
 
-- Improvement based on feedback.
-- Add more test cases.
-- Always try to update with the latest version of the packages used.
+- Améliorations basées sur les retours.
+- Ajouter plus de cas de tests.
+- Toujours essayer de mettre à jour avec la dernière version des paquets utilisés.
 
-## If this project helps you in anyway, show your love ❤️ by putting a ⭐ on this project ✌️
+## Si ce projet vous aide de quelque manière que ce soit, montrez votre amour ❤️ en mettant une ⭐ sur ce projet ✌️
 
-### License
+### Licence
 
 ```
    Copyright (C) 2024 Amit Shekhar
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+   Sous licence Apache, version 2.0 (la "Licence").
+   Vous ne pouvez pas utiliser ce fichier sauf conformément à la Licence.
+   Vous pouvez obtenir une copie de la Licence à l'adresse suivante :
 
        http://www.apache.org/licenses/LICENSE-2.0
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+   Sauf si requis par la loi applicable ou convenu par écrit, le logiciel
+   distribué sous la Licence est distribué "EN L'ÉTAT",
+   SANS GARANTIE NI CONDITIONS D'AUCUNE SORTE, explicites ou implicites.
+   Consultez la Licence pour plus de détails concernant les autorisations
+   et les limitations dans le cadre de la Licence.
 ```
 
-### Contributing to Go Backend Clean Architecture
+### Contribuer à l'architecture propre backend en Go
 
-All pull requests are welcome.
+Toutes les demandes de pull request sont les bienvenues.
+
+--- 
+
+N'hésitez pas à me dire si vous avez besoin d'autres précisions ou d'une autre aide !
